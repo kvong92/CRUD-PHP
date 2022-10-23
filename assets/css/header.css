@@ -1,0 +1,68 @@
+.header_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#title_header {
+    font-size: 2em;
+}
+
+#h1_header {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: #EC9222;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#body_list {
+    margin: 0 0 0 0;
+}
+
+#title_list {
+    background: linear-gradient(rgba(15, 15, 46, 0.7), rgba(15, 15, 46, 0.7)), url("../images/library.jpg"), no-repeat center;
+    background-position: bottom;
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    margin-bottom: 10%;
+
+}
+
+#title_list h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+}
+
+#content_list {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
